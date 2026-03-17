@@ -21,7 +21,7 @@
             decimal relacionCreditoBalanza = (solicitud.MontoSolicitado / solicitud.PlazoSolicitado) / balanza;
 
             if (relacionCreditoBalanza >= 0.95m)
-                return "Negado: Relación igual o superior a 0.95.";
+                return "Negado: El credito rebe tener una relación igual o superior a 0.95.";
 
 
             // Aquí se está consultado el puntaje para poder ver si se
