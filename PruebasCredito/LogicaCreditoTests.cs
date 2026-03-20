@@ -62,7 +62,7 @@ namespace PruebasCredito
             var resultado = logica.Evaluar(solicitud);
 
             // Assert
-            Assert.Equal("Negado: El credito rebe tener una relación igual o superior a 0.95.", resultado);
+            Assert.Equal("Negado: El credito debe tener una relación igual o superior a 0.95.", resultado);
         }
 
         // 4. Prueba: Escenario Ideal (Aprobado) usando el Mock
