@@ -1,6 +1,6 @@
 <Solution>
   <Project Path="CapaAccesoDatos/CapaAccesoDatos.csproj" />
-  <Project Path="CapaDatosMock/CapaDatosPrueba.csproj" Id="a47207b1-bc3b-4cf1-9c06-a57875ef52b3" />
+  <Project Path="CapaDatosPrueba/CapaDatosPrueba.csproj" Id="d406784a-d10c-4c8f-ab5f-a1565056a0d8" />
   <Project Path="CapaNegocio/CapaNegocio.csproj" />
   <Project Path="ParcialArq1/CapaPresentacion.csproj" />
   <Project Path="PruebasCredito/PruebasCredito.csproj" Id="17eec1ff-54f7-4602-947a-b31d785bd629" />

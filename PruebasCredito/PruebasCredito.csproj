@@ -15,7 +15,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\CapaDatosMock\CapaDatosPrueba.csproj" />
+    <ProjectReference Include="..\CapaDatosPrueba\CapaDatosPrueba.csproj" />
     <ProjectReference Include="..\CapaNegocio\CapaNegocio.csproj" />
   </ItemGroup>
 
