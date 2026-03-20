@@ -42,7 +42,7 @@ namespace ParcialArq1
                     MontoSolicitado = decimal.Parse(txtMonto.Text),
                     PlazoSolicitado = int.Parse(txtPlazo.Text)
                 };
-
+                    
                 // Evaluar la solicitud
                 string resultado = logica.Evaluar(solicitud);
 

@@ -1,10 +1,11 @@
 using System;
 using CapaNegocio;
+using CapaNegocio.Interfaces;
 using Microsoft.Data.SqlClient;
 
 namespace CapaAccesoDatos
 {
-    public class ConexionSQLServer : ICentralRiesgo
+    public class ConexionSQLServer : ICentralRiesgoRepository
     {
         public SqlConnection conexion;
 

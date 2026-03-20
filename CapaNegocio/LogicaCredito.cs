@@ -1,10 +1,12 @@
-﻿namespace CapaNegocio
+﻿using CapaNegocio.Interfaces;
+
+namespace CapaNegocio
 {
     public class LogicaCredito
     {
-        private readonly ICentralRiesgo _centralRiesgo;
+        private readonly ICentralRiesgoRepository _centralRiesgo;
 
-        public LogicaCredito(ICentralRiesgo centralRiesgo)
+        public LogicaCredito(ICentralRiesgoRepository centralRiesgo)
         {
             this._centralRiesgo = centralRiesgo;
         }
@@ -25,7 +27,7 @@
 
 
             // Aquí se está consultado el puntaje para poder ver si se
-            // hace el credito, la funcion viene de la interfaz de ICentralRiesgo
+            // hace el credito, la funcion viene de la interfaz de ICentralRiesgoRepository, y se le pasan los parametros de TipoDoc y NroDoc para obtener el puntaje correcto.
             int puntaje = _centralRiesgo.ConsultarPuntaje(solicitud.TipoDoc, solicitud.NroDoc);
 
             if (relacionCreditoBalanza >= 0.7m && relacionCreditoBalanza < 0.95m)
